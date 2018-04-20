@@ -61,13 +61,3 @@ class Manager(Employee):
             print("---->", char.fullname())
     
 
-Ryan = Employee("Ryan", "Copeland", "Black", 20, 10)
-Nick = Developer("Nick", "Hester", "White", 27, 60000, "Javascript")
-Joel = Manager("Joel", "Foy", "White", 35, 100000, [Ryan, Nick])
-
-
-print(Joel.first)
-print(Joel.last)
-print(Joel.fullname)
-Joel.fullname = "Ronald Regan"
-print(Joel.fullname)
